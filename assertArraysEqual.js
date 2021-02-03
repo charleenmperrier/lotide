@@ -13,14 +13,14 @@ const eqArrays = function(array1, array2) {
 
 
 const assertArraysEqual = function(arr1, arr2) {
-  if (eqArrays(arr1, arr2) === true) {
+  if (eqArrays(arr1, arr2)) {
     console.log (`✅✅ Assertion Passed`)
   } else { console.log(`🛑🛑 Assertion Failed`)
 
   }
 }
 //test
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // => should !PASS
+assertArraysEqual(["1", '2' "3"], ["1", "2", "3"]); // => should !PASS
 
 
 //tests
