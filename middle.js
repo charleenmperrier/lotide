@@ -30,7 +30,7 @@ const middle = function(midArr) {
   } else if (midArr.length % 2 === 0) {
     
     midNewArr.push(midArr[midArr.length / 2 - 1 ]); 
-    midNewArr.push(midArr[midArr.length / 2 | 0]); // does it need | 0 ?
+    midNewArr.push(midArr[midArr.length / 2 ]); // does it need | 0 ?
   } else if (midArr.length % 2 !== 0) {
     midNewArr.push(midArr[midArr.length / 2 | 0]);// Math.floor(midArr.length / 2);
     
